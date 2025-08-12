@@ -9,7 +9,6 @@ The backend is optimized to deliver **ultra-low-latency responses** using a high
 - **Markdown Support** – Rich text formatting with lists, links, and code blocks.
 - **Persistent History** – Keeps track of previous chats.
 - **Optimized Backend** – Low-latency responses through specialized inference runtime.
-- **Customizable** – Swap AI models or tweak UI easily.
 
 ## 🛠 Tech Stack
 **Frontend:**
