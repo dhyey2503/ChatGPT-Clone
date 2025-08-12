@@ -1,0 +1,14 @@
+body { font-family: Inter, system-ui, Arial; background: #f7fafc; margin:0 }
+.app { max-width: 900px; margin: 30px auto; background: white; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); overflow: hidden }
+.header { padding: 16px 20px; font-weight: 700; background: #0f172a; color: rgb(34, 138, 182) }
+.chat { padding: 20px }
+.messages { max-height: 60vh; overflow: auto; margin-bottom: 12px }
+.msg { padding: 10px; border-radius: 8px; margin-bottom: 8px }
+.msg.user { background: #e6f4ff; text-align: right }
+.msg.assistant { background: #f3f4f6; text-align: left }
+.role { font-size: 11px; opacity: 0.7 }
+.content { margin-top: 6px; white-space: pre-wrap }
+.composer { display: flex; gap: 8px }
+.composer input { flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #e5e7eb }
+.composer button { padding: 10px 14px; border-radius: 6px; background: #0ea5a4; color: white; border: none }
+.sources { margin-top: 10px; font-size: 13px; color: #374151 }
